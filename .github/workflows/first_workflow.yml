@@ -1,0 +1,9 @@
+name: First Workflow
+on: [push]
+
+jobs:
+  run-first-command:
+    runs-on: ubuntu-lates
+    steps:
+      - name: Displey some text
+        run: echo "Some text"
